@@ -6,9 +6,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
-h1{
-    color: #77ffc0;
-    font-size: 50px;
+h1, p{
+    color: #77ffc0;  
+}
+
+.header p{
+    max-width: 500px;
+    text-align: center;
 }
 
 .header{
@@ -19,6 +23,10 @@ h1{
     background: #201b2c;
     justify-content: center;
     align-items: center;
+}
+
+.header h1{
+    font-size: 6vw;
 }
 
 /*Jutify-content: ajusta o eixo X
@@ -33,6 +41,10 @@ Aligh-items: ajusta o eixo Y*/
     flex-direction: column;
 }
 
+.imagemEsquerda{
+    width: 35vw;
+}
+
 .direitaHeader{
     width: 60%;
     display: flex;
@@ -40,6 +52,8 @@ Aligh-items: ajusta o eixo Y*/
     align-items: center;
     flex-direction: column;
 }
+
+
 
 /*.card{
     width: 100px;
