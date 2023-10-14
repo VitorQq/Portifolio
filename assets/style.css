@@ -6,16 +6,99 @@
     font-family: 'Roboto', sans-serif;
 }
 
-h1, p{
-    color: #77ffc0;  
+/*Começo do NAV HEADER*/
+
+a{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
-.header p{
-    max-width: 500px;
-    text-align: center;
+a:hover{
+    opacity: 0.7;
 }
 
-.header{
+.LogoNav{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #23232e;
+    height: 7vh;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-list li{
+    justify-content: space-between;
+    letter-spacing: 3px;
+    padding: 22px;
+}
+
+.responsiveImgNav{
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 999px){
+    body{
+        overflow-x: hidden;
+    }
+    
+    .nav-list{
+        position: absolute;
+        top: 7vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #23232e;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+    .nav-list li{
+        margin-left: 0;
+        
+    }
+    .LogoNav{
+        font-size: 24px;
+    }
+    .responsiveImgNav{
+        display: block;
+        
+    }
+   .nav-list.active{
+    transform: translateX(0);
+   }
+
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+
+/*FIM DO NAV HEADER*/
+
+/*Começo do MAIN HEADER*/
+.MainHeader{
     
     display: flex;
     height: 100vh;
@@ -25,9 +108,19 @@ h1, p{
     align-items: center;
 }
 
-.header h1{
+.MainHeader h1{
     font-size: 6vw;
 }
+
+h1, p{
+    color: #77ffc0;  
+}
+
+.MainHeader p{
+    max-width: 500px;
+    text-align: center;
+}
+
 
 /*Jutify-content: ajusta o eixo X
 Aligh-items: ajusta o eixo Y*/
@@ -53,7 +146,7 @@ Aligh-items: ajusta o eixo Y*/
     flex-direction: column;
 }
 
-
+/*Fim do MAIN HEADER*/
 
 /*.card{
     width: 100px;
