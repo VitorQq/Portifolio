@@ -22,6 +22,7 @@ a:hover{
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    color: #77ffc0;
 }
 
 nav{
@@ -30,21 +31,51 @@ nav{
     align-items: center;
     background: #23232e;
     height: 7vh;
+    color: #77ffc0;
 }
 
 .nav-list{
     display: flex;
+    text-align: center;
+    justify-content: space-between;
 }
 
 .nav-list li{
-    justify-content: space-between;
+    margin: 18px;
     letter-spacing: 3px;
-    padding: 22px;
+    
+}
+.nav-list a{
+    padding: 10px;
+}
+
+.nav-list a:hover{
+    background: #77ffc0;
+    border-radius: 15px;
+    align-items: center;
+    transition: 0.5s;
+    
+}
+
+.nav-list a{
+    color: #77ffc0;
+}
+
+.nav-list a:hover{
+    color: black;
 }
 
 .responsiveImgNav{
     display: none;
     cursor: pointer;
+    color: #77ffc0;
+}
+
+
+.containerAberto{
+    position: fixed;
+    right: 0;
+    top: 50%;
 }
 
 @media (max-width: 999px){
@@ -154,5 +185,49 @@ Aligh-items: ajusta o eixo Y*/
     margin: 25px
     border:none;
 
-
 }*/
+
+
+/*COMEÇO DO Section*/
+
+
+.SeparaConteudo{
+    color: #77ffc0; 
+    background: #23232e;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+
+/*.SeparaConteudo h1:hover{
+    background: #77ffc0;
+    transition: 0.5;
+    color: black;
+    border-radius: 15px;
+    
+}*/
+
+.sectionContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #201b2c;
+    margin: auto;  
+    padding: 22px;
+    
+}
+
+
+.sectionContainer img{
+    max-width: 200px;
+}
+
+.divSectionContainer{
+}
+
+
+
+/*Final do Section*/
