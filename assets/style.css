@@ -187,10 +187,6 @@ Aligh-items: ajusta o eixo Y*/
 
 }*/
 
-
-/*COMEÇO DO Section*/
-
-
 .SeparaConteudo{
     color: #77ffc0; 
     background: #23232e;
@@ -202,31 +198,45 @@ Aligh-items: ajusta o eixo Y*/
 }
 
 
-/*.SeparaConteudo h1:hover{
-    background: #77ffc0;
-    transition: 0.5;
-    color: black;
-    border-radius: 15px;
-    
-}*/
+
+
+/*COMEÇO DO Section*/
 
 .sectionContainer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    height: 70vh;
     background: #201b2c;
-    margin: auto;  
-    padding: 22px;
-    
 }
 
-
-.sectionContainer img{
-    max-width: 200px;
+.FlexDivContainer{
+    display: flex;
+    background: black;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px;
 }
 
 .divSectionContainer{
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #2f2841;
 }
+
+.ConteudoDivSelectionContainer{
+    background: white;
+    height: 100%;
+}
+
+.ConteudoDivSelectionContainer img{
+    width: 100%;
+    height: 50%;
+}
+
+
 
 
 
