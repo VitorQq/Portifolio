@@ -200,25 +200,24 @@ Aligh-items: ajusta o eixo Y*/
 
 
 
-/*COMEÇO DO Section*/
+/*COMEÇO DO Projetos*/
 
 .sectionContainer{
-    height: 70vh;
+    height: 80vh;
     background: #201b2c;
 }
 
 .FlexDivContainer{
     display: flex;
-    background: black;
     justify-content: space-evenly;
     width: 100%;
-    padding: 20px;
+    padding: 50px;
 }
 
 .divSectionContainer{
     display: inline-block;
     width: 30%;
-    height: 300px;
+    height: 400px;
     padding: 25px;
     border-radius: 15px;
     text-align: center;
@@ -227,17 +226,96 @@ Aligh-items: ajusta o eixo Y*/
 }
 
 .ConteudoDivSelectionContainer{
-    background: white;
     height: 100%;
+}
+
+.ConteudoDivSelectionContainer h1{
+    text-transform: uppercase;
 }
 
 .ConteudoDivSelectionContainer img{
     width: 100%;
     height: 50%;
+    border-radius: 5px;
 }
 
 
+/*Final do Projetos*/
 
 
 
-/*Final do Section*/
+/*Começo do SOBRE*/
+.MainSobre{
+    height: 400px;
+    background: #201b2c;
+    display: flex;
+    width: 100vw; 
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: -15px;
+}
+
+.EsquerdaSobre{
+    width: 580vh;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    
+}
+
+.DefineTamanhoSobreEsquerda img{
+    width: 60%;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.DefineTamanhoSobreEsquerda1{
+    padding: 70px;
+}
+
+.DireitaSobre{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.DefineTamanhoSobreDireita{
+    
+    width: 700px;
+    height: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: #2f2841;
+}
+
+.DefineTamanhoSobreDireita h1{
+    text-align: center;
+}
+
+.DefineMargemSobreDireita{
+
+}
+
+/*Final do SOBRE*/
+
+
+
+
+/*Começo do footer*/
+
+.footerMain{
+    height: 100px;
+    background: #23232e;
+}
+.ConteudoFooter{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*Fim do footer*/
