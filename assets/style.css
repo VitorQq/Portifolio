@@ -246,69 +246,69 @@ Aligh-items: ajusta o eixo Y*/
 
 /*Começo do SOBRE*/
 .MainSobre{
-    height: 400px;
-    background: #201b2c;
-    display: flex;
-    width: 100vw; 
-    justify-content: center;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: -15px;
+   display: flex;
+   background: #201b2c;
+   height: 400px;
+    
 }
 
 .EsquerdaSobre{
-    width: 580vh;
-    display: flex;
-    align-items: center;
-    margin-left: 100px;
+  padding: 0 200px;
+  padding-top: 20px;
+  height: 300px;
     
 }
 
 .DefineTamanhoSobreEsquerda img{
-    width: 60%;
-    height: 200px;
-    border-radius: 100px;
+    width:250px;
+    height: 250px;
+    border-radius: 150px;
 }
 
-.DefineTamanhoSobreEsquerda1{
-    padding: 70px;
-}
+
 
 .DireitaSobre{
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.DefineTamanhoSobreDireita{
-    
-    width: 700px;
+    padding-top: 60px;
     height: 300px;
-    padding: 25px;
-    border-radius: 15px;
-    border: 2px solid black;
-    background-color: #2f2841;
+    
 }
-
-.DefineTamanhoSobreDireita h1{
-    text-align: center;
-}
-
 .DefineMargemSobreDireita{
+    width: 600px;
+    text-align: center;
+    font-size: 23px;
+}
 
+.DefineTamanhoSobreDireita img{
+    padding-top: 20px;
+    height: 100px;
+}
+.IconsSobre{
+    display: flex;
+    justify-content: space-around;
+}
+.IconsSobre img{
+    cursor: pointer;
+}
+
+.IconsSobre img :hover{
+    color: blue;
 }
 
 /*Final do SOBRE*/
 
+/*Começo Experiência*/
 
+.mainExperiência{
+    height: 200px;
+    background: #201b2c;
+}
+/*Fim Experiência*/
 
 
 /*Começo do footer*/
 
 .footerMain{
-    height: 100px;
+    height: 50px;
     background: #23232e;
 }
 .ConteudoFooter{
