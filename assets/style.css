@@ -197,47 +197,7 @@ Aligh-items: ajusta o eixo Y*/
 
 
 
-/*---------------------------------------COMEÇO DO Projetos---------------------------------------*/
 
-.sectionContainer{
-    height: 80vh;
-    background: #201b2c;
-}
-
-.FlexDivContainer{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    padding: 50px;
-}
-
-.divSectionContainer{
-    display: inline-block;
-    width: 30%;
-    height: 400px;
-    padding: 25px;
-    border-radius: 15px;
-    text-align: center;
-    /*border: 2px solid black;*/
-    /*background-color: #2f2841;*/
-}
-
-.ConteudoDivSelectionContainer{
-    height: 100%;
-}
-
-.ConteudoDivSelectionContainer h1{
-    text-transform: uppercase;
-}
-
-.ConteudoDivSelectionContainer img{
-    width: 100%;
-    height: 50%;
-    border-radius: 5px;
-}
-
-
-/*---------------------------------------Final do Projetos---------------------------------------*/
 
 
 
@@ -349,7 +309,7 @@ Aligh-items: ajusta o eixo Y*/
 /*Icons Projects*/
 
 .MainIconsProjects{
-    height: 300px;
+    height: 230px;
     background: #201b2c; 
     
 }
