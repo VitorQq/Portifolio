@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/*Começo do NAV HEADER*/
+/*---------------------------------------Começo do NAV HEADER---------------------------------------*/
 
 a{
     color: black;
@@ -124,9 +124,9 @@ nav{
     
 }
 
-/*FIM DO NAV HEADER*/
+/*---------------------------------------FIM DO NAV HEADER---------------------------------------*/
 
-/*Começo do MAIN HEADER*/
+/*---------------------------------------Começo do MAIN HEADER---------------------------------------*/
 .MainHeader{ 
     display: flex;
     height: 100vh;
@@ -197,7 +197,7 @@ Aligh-items: ajusta o eixo Y*/
 
 
 
-/*COMEÇO DO Projetos*/
+/*---------------------------------------COMEÇO DO Projetos---------------------------------------*/
 
 .sectionContainer{
     height: 80vh;
@@ -237,11 +237,11 @@ Aligh-items: ajusta o eixo Y*/
 }
 
 
-/*Final do Projetos*/
+/*---------------------------------------Final do Projetos---------------------------------------*/
 
 
 
-/*Começo do SOBRE*/
+/*---------------------------------------Começo do SOBRE---------------------------------------*/
 .MainSobre{
    display: flex;
    background: #201b2c;
@@ -291,9 +291,9 @@ Aligh-items: ajusta o eixo Y*/
     color: blue;
 }
 
-/*Final do SOBRE*/
+/*---------------------------------------Final do SOBRE---------------------------------------*/
 
-/*Começo Projects*/
+/*---------------------------------------Começo Projects---------------------------------------*/
 
 
 .mainProjects{
@@ -345,10 +345,46 @@ Aligh-items: ajusta o eixo Y*/
    
 }
 
-/*Fim Experiência*/
+
+/*Icons Projects*/
+
+.MainIconsProjects{
+    height: 300px;
+    background: #201b2c; 
+    
+}
+
+.LarguraIconsProjects{
+    width: 100%;
+    
+    height: 200px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    color: #77ffc0; 
+}
+
+.LarguraIconsProjects img{
+    width: 50px;
+    height: 50px;
+}
+
+.LarguraIconsProjects h1{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.bordaIconsProjects{
+    width: 230px;
+    height: 200px;
+    
+    text-align: center;
+}
+
+/*----------------------------------------Fim Experiência---------------------------------------*/
 
 
-/*Começo do footer*/
+/*---------------------------------------Começo do footer---------------------------------------*/
 
 .footerMain{
     height: 50px;
@@ -360,4 +396,4 @@ Aligh-items: ajusta o eixo Y*/
     justify-content: center;
 }
 
-/*Fim do footer*/
+/*---------------------------------------Fim do footer---------------------------------------*/
