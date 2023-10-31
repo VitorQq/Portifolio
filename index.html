@@ -11,11 +11,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link
         href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;600&family=Roboto:wght@300;400;700&family=Teko:wght@300;400&display=swap"
         rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/style.css">
 
@@ -25,14 +26,13 @@
 
     <header>
         <nav>
-            <a class="LogoNav" href="#">LOGO</a>
-            <img src="assets/img/align-justified.svg" class="responsiveImgNav" alt="">
+            <a class="LogoNav" href="#inicio">LOGO</a>
+            <img src="assets/img/align-justified.svg" class="responsiveImgNav" alt="" id="inicio">
             <ul class="nav-list">
-                <li><a href="#">INICIO</a></li>
-                <li><a href="#">PROJETOS</a></li>
-                <li><a href="#">SOBRE</a></li>
-                <li><a href="#">EXPERIENCIAS</a></li>
-                <li><a href="#">CONTATOS</a></li>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#projeto">PROJETOS</a></li>
+                <li><a href="#sobre">SOBRE</a></li>
+                <li><a href="#contatos">CONTATOS</a></li>
                 </div>
         </nav>
         <main class="MainHeader">
@@ -45,7 +45,14 @@
                     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                     and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
                     leap into electronic typesetting, remaining essentially unchanged. It was popularised in</p>
+                <div class="direitaHeaderImagem">
+                    <img src="assets/Icons/github.png">
+                    <img src="assets/Icons/github.png">
+                    <img src="assets/Icons/github.png">
+                    <i class="bi bi-bicycle"></i>
+                    
 
+                </div>
             </div>
         </main>
     </header>
@@ -58,7 +65,7 @@
     </div>
 
 
-    <section>
+    <section id="projeto">
         <!--<h1>Exemplo projeto https://people.umass.edu/avsingh/</h1>-->
         <!--Contudo lado Esquerdo / Imagem lado direito-->
         <div class="mainProjects">
@@ -114,56 +121,6 @@
             </div>
         </div>
 
-        <h1 style="color: aqua; background: #201b2c;  text-align: center; font-size: 30px; padding: 10px;">Linguagens
-        </h1>
-
-
-        <div class="MainIconsProjects">
-            <div class="LarguraIconsProjects">
-                <div class="bordaIconsProjects">
-                    <h1>Linguagens</h1>
-                    <img src="assets/Icons/html-5.png" alt="">
-                    <img src="assets/Icons/css-3.png" alt="">
-                    <img src="assets/Icons/github.png" alt="">
-                    <img src="assets/Icons/github.png" alt="">
-                    <span>
-                        My favorite languages for systems programming, software engineering, and data analysis.
-                    </span>
-                </div>
-                <div class="bordaIconsProjects">
-                    <h1>Back-end</h1>
-                    <img src="assets/Icons/java.png" alt="">
-                    <img src="assets/Icons/php.png" alt="">
-                    <img src="assets/Icons/servidor-sql.png" alt="">
-                    <img src="assets/Icons/github.png" alt="">
-                    <span>
-                        My favorite languages for systems programming, software engineering, and data analysis.
-                    </span>
-                </div>
-                <div class="bordaIconsProjects">
-                    <h1>front-end</h1>
-                    <img src="assets/Icons/html-5.png" alt="">
-                    <img src="assets/Icons/css-3.png" alt="">
-                    <img src="assets/Icons/bootstrap.png" alt="">
-                    <img src="assets/Icons/JavaScript.png" alt="">
-                    <span>
-                        My favorite languages for systems programming, software engineering, and data analysis.
-                    </span>
-                </div>
-                <div class="bordaIconsProjects">
-                    <h1>Ferramentas</h1>
-                    <img src="assets/Icons/figma.png" alt="">
-                    <img src="assets/Icons/VsCode.png" alt="">
-                    <img src="assets/Icons/Eclipse.png" alt="">
-                    <img src="assets/Icons/github.png" alt="">
-                    <span>
-                        My favorite languages for systems programming, software engineering, and data analysis.
-                    </span>
-                </div>
-            </div>
-        </div>
-
-
     </section>
 
 
@@ -180,7 +137,7 @@
         </div>
     </div>
 
-    <section>
+    <section id="sobre">
         <div class="MainSobre">
             <div class="EsquerdaSobre">
                 <div class="DefineTamanhoSobreEsquerda">
@@ -206,6 +163,59 @@
                 </div>
             </div>
         </div>
+
+        <h1 style="color: aqua; background: #201b2c;  text-align: center; font-size: 30px; padding: 10px;">Linguagens
+        </h1>
+
+        <div class="MainIconsProjects">
+            <div class="LarguraIconsProjects">
+                <div class="bordaIconsProjects">
+                    <h1>Linguagens</h1>
+                    <img src="assets/Icons/html-5.png" alt="">
+                    <img src="assets/Icons/css-3.png" alt="">
+                    <img src="assets/Icons/github.png" alt="">
+                    <img src="assets/Icons/github.png" alt="">
+                    <!--<span>
+                        My favorite languages for systems programming, software engineering, and data analysis.
+                    </span>
+                -->
+                </div>
+                <div class="bordaIconsProjects">
+                    <h1>Back-end</h1>
+                    <img src="assets/Icons/java.png" alt="">
+                    <img src="assets/Icons/php.png" alt="">
+                    <img src="assets/Icons/servidor-sql.png" alt="">
+                    <img src="assets/Icons/github.png" alt="">
+                    <!--<span>
+                        My favorite languages for systems programming, software engineering, and data analysis.
+                    </span>
+                -->
+                </div>
+                <div class="bordaIconsProjects">
+                    <h1>front-end</h1>
+                    <img src="assets/Icons/html-5.png" alt="">
+                    <img src="assets/Icons/css-3.png" alt="">
+                    <img src="assets/Icons/bootstrap.png" alt="">
+                    <img src="assets/Icons/JavaScript.png" alt="">
+                    <!--<span>
+                        My favorite languages for systems programming, software engineering, and data analysis.
+                    </span>
+                -->
+                </div>
+                <div class="bordaIconsProjects">
+                    <h1>Ferramentas</h1>
+                    <img src="assets/Icons/figma.png" alt="">
+                    <img src="assets/Icons/VsCode.png" alt="">
+                    <img src="assets/Icons/Eclipse.png" alt="">
+                    <img src="assets/Icons/github.png" alt="">
+                    <!--<span>
+                        My favorite languages for systems programming, software engineering, and data analysis.
+                    </span>
+                -->
+                </div>
+            </div>
+        </div>
+
     </section>
     <!--FIM SOBRE-->
 

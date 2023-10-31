@@ -174,6 +174,13 @@ Aligh-items: ajusta o eixo Y*/
     flex-direction: column;
 }
 
+.direitaHeaderImagem img{
+    width: 60px;
+    height: 60px;
+    border-radius: 2px;
+    padding-top: 5px;
+}
+
 /*Fim do MAIN HEADER*/
 
 /*.card{
@@ -205,7 +212,7 @@ Aligh-items: ajusta o eixo Y*/
 .MainSobre{
    display: flex;
    background: #201b2c;
-   height: 400px;
+   height: 300px;
     
 }
 
@@ -249,6 +256,39 @@ Aligh-items: ajusta o eixo Y*/
 
 .IconsSobre img :hover{
     color: blue;
+}
+
+
+/*Icons Projects*/
+
+.MainIconsProjects{
+    height: 125px;
+    background: #201b2c; 
+    
+}
+
+.LarguraIconsProjects{
+    width: 100%;
+    height: 100px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    color: #77ffc0; 
+}
+
+.LarguraIconsProjects img{
+    width: 50px;
+    height: 50px;
+}
+
+.LarguraIconsProjects h1{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.bordaIconsProjects{
+    width: 230px;
+    text-align: center;
 }
 
 /*---------------------------------------Final do SOBRE---------------------------------------*/
@@ -306,40 +346,7 @@ Aligh-items: ajusta o eixo Y*/
 }
 
 
-/*Icons Projects*/
 
-.MainIconsProjects{
-    height: 230px;
-    background: #201b2c; 
-    
-}
-
-.LarguraIconsProjects{
-    width: 100%;
-    
-    height: 200px;
-    justify-content: space-evenly;
-    display: flex;
-    flex-wrap: wrap;
-    color: #77ffc0; 
-}
-
-.LarguraIconsProjects img{
-    width: 50px;
-    height: 50px;
-}
-
-.LarguraIconsProjects h1{
-    font-size: 30px;
-    padding: 10px;
-}
-
-.bordaIconsProjects{
-    width: 230px;
-    height: 200px;
-    
-    text-align: center;
-}
 
 /*----------------------------------------Fim Experiência---------------------------------------*/
 
