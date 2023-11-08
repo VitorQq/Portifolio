@@ -20,6 +20,7 @@ a:hover{
 .NavFixed{
     position: fixed;
     width: 100%;
+    z-index: 3;
 }
 
 .LogoNav{
@@ -382,7 +383,7 @@ Aligh-items: ajusta o eixo Y*/
 .AjustaImagemProjects{
     padding: 20px;
     text-align: center;
-   
+    z-index: 2;
 }
 
 
