@@ -78,6 +78,7 @@ nav{
     display: none;
     cursor: pointer;
     color: #77ffc0;
+    font-size: 30px;
 }
 
 .containerAberto{
@@ -203,7 +204,7 @@ Aligh-items: ajusta o eixo Y*/
     border-radius: 5px;
     padding: 3px;
     border-radius: 15px;
-    
+    color: aqua;
 }
 .direitaHeaderImagem i:hover{
     cursor: pointer;
@@ -241,7 +242,7 @@ Aligh-items: ajusta o eixo Y*/
 
 
 .DefineTamanhoEsquerdoProjects{
-    padding: 60px;
+    padding: 30px;
     text-align: center;
 }
 
@@ -290,16 +291,20 @@ Aligh-items: ajusta o eixo Y*/
 }
 
 .DefineTamanhoButtonProjects{
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
-    color: aqua;
-    background: #201b2c; 
+    color: black;
+    background: aqua; 
+    border: none;
+    
 }
 
 .DefineTamanhoButtonProjects:hover{
     background: #77ffc0;
     color: black;
     cursor: pointer;
+    border-radius: 15px;
+    transition: 1s;
 }
 
 
@@ -331,7 +336,7 @@ Aligh-items: ajusta o eixo Y*/
  
  
  .DireitaSobre{
-     padding-top: 60px;
+     padding-top: 50px;
      height: 300px;
      
  }
